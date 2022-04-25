@@ -1,8 +1,8 @@
 all: Dockerfile
-	docker build . -t mprokopov/oxid-ansible-runner
+	docker build . -t bertrandjackermann/oxid-ansible-runner
 
 run: Dockerfile
-	docker run --rm -it mprokopov/oxid-ansible-runner bash
+	docker run --rm -it bertrandjackermann/oxid-ansible-runner bash
 
 push: Dockerfile
-	docker push mprokopov/oxid-ansible-runner
+	docker push bertrandjackermann/oxid-ansible-runner
